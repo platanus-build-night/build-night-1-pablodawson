@@ -2,9 +2,9 @@
 
 ## Asistente de diabetes "Diabetinho"
 
-Este proyecto busca el **TTEC** para personas con Diabetes Tipo 1 (time to eat completo) 🌭
+Este proyecto busca reducir el **TTEC** para personas con Diabetes Tipo 1 (time to eat completo) 🌭
 
-Se conecta con la API de LibreLink para obtener las mediciones de glucosa en tiempo real.
+Se conecta con la API de LibreLink (de los sensores de glucosa Freestyle Libre) para obtener las mediciones de glucosa en tiempo real.
 
 Con GPT-4.1 se estima la cantidad de carbohidratos en la comida de la imagen subida.
 
