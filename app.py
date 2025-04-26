@@ -1,6 +1,8 @@
 import streamlit as st
 from openai import OpenAI
 import dotenv
+dotenv.load_dotenv()
+
 import os
 import json
 from utils import get_latest_glucose_data, calculate_insulin_dose, get_graph_data_text
@@ -9,7 +11,7 @@ import re
 from PIL import Image
 import io
 
-dotenv.load_dotenv()
+
 
 st.title("Glucosinho 🍪")
 
